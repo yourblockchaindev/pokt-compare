@@ -14,8 +14,8 @@ function ChainCellItem({ chainId, key }: IChainCellItem) {
     <img
       src={chain.icon_url}
       alt={chain.name}
-      className={`h-6 w-6 border-2 border-slate-50 rounded-full inline ${
-        key === 0 ? "" : "-ml-1"
+      className={`h-4 w-4 md:h-5 md:w-5 border md:border-2 border-slate-50 rounded-full inline ${
+        key === 0 ? "" : "-ml-2"
       } z-${40 - key * 10}`}
     />
   ) } else {
