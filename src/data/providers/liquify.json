@@ -11,5 +11,8 @@
   ],
   "baseFixed": null,
   "baseVariable": null,
-  "baseNodes": null
+  "baseNodes": null,
+  "rating": {
+    "overall": 2
+  }
 }

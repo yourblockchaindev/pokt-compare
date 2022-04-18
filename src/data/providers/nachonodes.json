@@ -4,5 +4,8 @@
   "chainIds": [],
   "baseFixed": 0,
   "baseVariable": 40,
-  "baseNodes": null
+  "baseNodes": null,
+  "rating": {
+    "overall": 2
+  }
 }

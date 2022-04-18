@@ -4,6 +4,10 @@ const headers = [
     klass: "",
   },
   {
+    name: "Rating",
+    klass: "text-right",
+  },
+  {
     name: "Chains",
     klass: "text-right",
   },
@@ -28,7 +32,7 @@ function Header() {
         {headers.map((header, key) => (
           <td
             key={key}
-            className={`p-4 uppercase text-xs text-slate-400 ${header.klass}`}
+            className={`p-4 hidden md:visible uppercase text-xs text-slate-400 ${header.klass}`}
           >
             {header.name}
           </td>

@@ -18,5 +18,8 @@
   ],
   "baseFixed": 365,
   "baseVariable": 0,
-  "baseNodes": 5
+  "baseNodes": 5,
+  "rating": {
+    "overall": 3
+  }
 }

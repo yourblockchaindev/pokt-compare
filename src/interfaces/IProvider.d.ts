@@ -1,3 +1,13 @@
+interface IRating {
+  overall?: number
+  chains?: number
+  security?: number
+  pricing?: number
+  hardware?: number
+  monitoring?: number
+  reporting?: number
+}
+
 interface IProvider {
   name: string
   url: string
@@ -5,4 +15,5 @@ interface IProvider {
   baseNodes: number | null
   baseFixed: number | null
   baseVariable: number | null
+  rating?: IRating
 }

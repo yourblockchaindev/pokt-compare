@@ -2,10 +2,10 @@ import chains from "../../data/chains/chains";
 
 interface IChainCellItem {
   chainId: string
-  key: number
+  id: number
 }
 
-function ChainCellItem({ chainId, key }: IChainCellItem) {
+function ChainCellItem({ chainId, id }: IChainCellItem) {
 
   const chain = chains[chainId]
 
@@ -13,10 +13,10 @@ function ChainCellItem({ chainId, key }: IChainCellItem) {
   return (
     <img
       src={chain.icon_url}
-      alt={chain.name}
+      alt={`${id}`}
       className={`h-4 w-4 md:h-5 md:w-5 border md:border-2 border-slate-50 rounded-full inline ${
-        key === 0 ? "" : "-ml-2"
-      } z-${40 - key * 10}`}
+        id === 0 ? "" : "-ml-2"
+      } z-${40 - id * 10}`}
     />
   ) } else {
     return <></>

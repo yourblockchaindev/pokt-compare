@@ -13,5 +13,8 @@
   ],
   "baseFixed": 145,
   "baseVariable": 0,
-  "baseNodes": 10
+  "baseNodes": 10,
+  "rating": {
+    "overall": 4
+  }
 }

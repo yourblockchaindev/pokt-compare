@@ -13,5 +13,8 @@
   ],
   "baseFixed": 80,
   "baseVariable": 21.5,
-  "baseNodes": null
+  "baseNodes": null,
+  "rating": {
+    "overall": 2
+  }
 }

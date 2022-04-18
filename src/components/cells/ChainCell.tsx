@@ -15,9 +15,9 @@ function ChainCell({ chainIds }: IChainCell) {
 
   return (
     <>
-      {chainIds.slice(0, VISIBLE_COUNT).map((chainId: string, key) => <ChainCellItem key={key} chainId={chainId} />)}
+      {chainIds.slice(0, VISIBLE_COUNT).map((chainId: string, key) => <ChainCellItem key={key} id={key} chainId={chainId} />)}
       {chainIds.length > 3 ? (
-        <span className="ml-1 text-xs font-semibold">+{chainIds.length - VISIBLE_COUNT}</span>
+        <span className="text-xs font-semibold">+{chainIds.length - VISIBLE_COUNT}</span>
       ) : (
         <></>
       )}

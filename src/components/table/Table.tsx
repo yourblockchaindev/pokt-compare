@@ -6,7 +6,7 @@ interface ITable {
 
 function Table({ children }: ITable) {
   return (
-    <table className="table-fixed w-full">{children}</table>
+    <table className="table-auto w-full">{children}</table>
   )
 }
 
