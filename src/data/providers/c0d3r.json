@@ -1,7 +1,16 @@
 {
   "name": "c0d3r",
   "url": "https://c0d3r.org/",
-  "chainIds": [],
+  "chainIds": [
+    "harmony-shard-0-mainnet",
+    "eth-mainnet",
+    "eth-kovan",
+    "eth-ropsten",
+    "eth-goerli",
+    "avax-mainnet",
+    "fuse-mainnet",
+    "xdai-mainnet"
+  ],
   "baseFixed": 145,
   "baseVariable": 0,
   "baseNodes": 10

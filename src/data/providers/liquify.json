@@ -1,8 +1,15 @@
 {
   "name": "Liquify",
   "url": "https://liquify.info/",
-  "chainIds": [],
-  "baseFixed": 0,
-  "baseVariable": 0,
-  "baseNodes": 0
+  "chainIds": [
+    "harmony-shard-0-mainnet",
+    "eth-mainnet",
+    "fuse-mainnet",
+    "fuse-archive",
+    "xdai-mainnet",
+    "bsc-mainnet"
+  ],
+  "baseFixed": null,
+  "baseVariable": null,
+  "baseNodes": null
 }

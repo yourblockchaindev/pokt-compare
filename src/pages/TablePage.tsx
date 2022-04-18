@@ -63,9 +63,9 @@ function TableRow({ provider }: ITableRow) {
       <td className="p-4 text-right">
         <TableChains chainIds={provider.chainIds} />
       </td>
-      <td className="p-4 text-right">${provider.baseFixed}</td>
-      <td className="p-4 text-right">{provider.baseVariable}%</td>
-      <td className="p-4 text-right">{provider.baseNodes}</td>
+      <td className="p-4 text-right">{ provider.baseFixed !== null ? `$${provider.baseFixed}` : <span className="text-slate-300">-</span> }</td>
+      <td className="p-4 text-right">{ provider.baseVariable !== null ? `${provider.baseVariable}%` : <span className="text-slate-300">-</span> }</td>
+      <td className="p-4 text-right">{ provider.baseNodes !== null ? provider.baseNodes : <span className="text-slate-300">-</span> }</td>
     </tr>
   );
 }

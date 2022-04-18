@@ -1,8 +1,23 @@
 {
   "name": "Easy2Stake",
   "url": "https://www.easy2stake.com/contact-us/",
-  "chainIds": [],
-  "baseFixed": 0,
-  "baseVariable": 0,
-  "baseNodes": 0
+  "chainIds": [
+    "pocket-mainnet",
+    "fuse-mainnet",
+    "eth-mainnet",
+    "eth-archive",
+    "eth-rinkeby",
+    "bsc-mainnet",
+    "xdai-mainnet",
+    "harmony-shard-0-mainnet",
+    "solana-mainnet",
+    "avax-mainnet",
+    "avax-archive",
+    "eth-goerli",
+    "eth-kovan",
+    "polygon-mainnet"
+  ],
+  "baseFixed": null,
+  "baseVariable": null,
+  "baseNodes": null
 }

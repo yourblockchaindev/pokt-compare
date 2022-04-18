@@ -1,7 +1,21 @@
 {
   "name": "Chainstack",
   "url": "https://chainstack.com/marketplace/pocket-network/",
-  "chainIds": [],
+  "chainIds": [
+    "avax-archive",
+    "avax-mainnet",
+    "bsc-archive",
+    "bsc-mainnet",
+    "eth-mainnet",
+    "eth-archive",
+    "eth-rinkeby",
+    "eth-ropsten",
+    "harmony-mainnet",
+    "polygon-mainnet",
+    "polygon-archive",
+    "solana-mainnet",
+    "pocket-mainnet"
+  ],
   "baseFixed": 365,
   "baseVariable": 0,
   "baseNodes": 5

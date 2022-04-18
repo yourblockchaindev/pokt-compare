@@ -2,7 +2,7 @@
   "name": "Chainflow",
   "url": "https://chainflow.io/contact/",
   "chainIds": [],
-  "baseFixed": 0,
-  "baseVariable": 0,
-  "baseNodes": 0
+  "baseFixed": null,
+  "baseVariable": null,
+  "baseNodes": null
 }

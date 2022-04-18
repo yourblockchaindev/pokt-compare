@@ -2,7 +2,7 @@ interface IProvider {
   name: string
   url: string
   chainIds: string[]
-  baseNodes: number
-  baseFixed: number
-  baseVariable: number
+  baseNodes: number | null
+  baseFixed: number | null
+  baseVariable: number | null
 }

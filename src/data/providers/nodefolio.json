@@ -1,8 +1,17 @@
 {
   "name": "NodeFolio",
   "url": "",
-  "chainIds": [],
+  "chainIds": [
+    "avax-mainnet",
+    "eth-mainnet",
+    "eth-kovan",
+    "eth-ropsten",
+    "eth-goerli",
+    "fuse-mainnet",
+    "harmony-shard-0-mainnet",
+    "xdai-mainnet"
+  ],
   "baseFixed": 80,
   "baseVariable": 21.5,
-  "baseNodes": 0
+  "baseNodes": null
 }
