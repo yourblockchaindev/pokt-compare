@@ -1,0 +1,8 @@
+{
+  "name": "Chainstack",
+  "url": "https://chainstack.com/marketplace/pocket-network/",
+  "chainIds": [0,2,5,13,15,17],
+  "baseFixed": 365,
+  "baseVariable": 0,
+  "baseNodes": 5
+}
